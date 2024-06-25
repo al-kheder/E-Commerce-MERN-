@@ -20,10 +20,19 @@ export const Footer = () => {
       </ul>
       <div className="footer-social-icons">
         <div className="footer-icons-container">
-        <img src={instagram_icon} alt="" />
+          <img src={instagram_icon} alt="" />
+        </div>
+        <div className="footer-icons-container">
+          <img src={pintrest_icon} alt="" />
+        </div>
+        <div className="footer-icons-container">
           <img src={whatsupp_icon} alt="" />
         </div>
       </div>
+        <div className="footer-copyright">
+            <hr />
+            <p>Copyright @ 2024 </p>
+        </div>
     </div>
   );
 };

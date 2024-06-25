@@ -13,7 +13,7 @@ export const Shop = () => {
       <Offer />
       <NewCollections />
       <Newsletter />
-      <Footer />
+     
     </div>
   );
 };

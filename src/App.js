@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 //compponents
 import { Navbar } from "./components/Navbar/Navbar";
+import { Footer } from "./components/Footer/Footer";
 //pages
 import { Shop } from "./pages/Shop";
 import { ShopCategory } from "./pages/ShopCategory";
@@ -26,6 +27,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<LoginSignUp />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
